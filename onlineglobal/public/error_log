@@ -1,0 +1,6 @@
+[30-Jan-2023 15:38:33 Asia/Dhaka] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'onlineglobalshop_shop'@'localhost' (using password: YES) in /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:70
+Stack trace:
+#0 /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(70): PDO->__construct('mysql:host=loca...', 'onlineglobalsho...', '7kPfPGxbPE)b', Array)
+#1 /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(46): Illuminate\Database\Connectors\Connector->createPdoConnection('mysql:host=loca...', 'onlineglobalsho...', '7kPfPGxbPE)b', Array)
+#2 /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate\Database\Connectors\Connector->createConnection('mysql:host=loca...', Array, Array)
+#3 /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connect in /home/onlineglobalshop/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 712
